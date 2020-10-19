@@ -1,4 +1,3 @@
-
 import org.junit.*;
 
 import static edu.gvsu.mipsunit.munit.MUnit.Register.*;
@@ -40,7 +39,7 @@ public class AssemblyIntroTest {
      *
      *****************************************************************/
     @Test 
-    public void sleepIn_notWeekend_notVacation() {
+    public void sleepIn_notWeekday_notVacation() {
 	run("sleepIn", 0, 0);
 	Assert.assertEquals(1, get(v0));
     }
