@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "The Tests",
+      "setup": "curl -O \"https://www.cis.gvsu.edu/~kurmasz/Autograder/{BranchTest_Strong.class,munit.jar}\"",
+      "run": "java -jar munit.jar branches.asm BranchTest_Strong.class",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
