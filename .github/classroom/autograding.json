@@ -3,7 +3,7 @@
     {
       "name": "The Tests",
       "setup": "curl -O \"https://www.cis.gvsu.edu/~kurmasz/Autograder/{AssemblyIntroStrongTest.class,munit.jar}\"",
-      "run": "java -jar munit.jar branches.asm BranchTest_Strong.class",
+      "run": "java -jar munit.jar assemblyIntro.asm AssemblyIntroStrongTest.class",
       "input": "",
       "output": "",
       "comparison": "included",
